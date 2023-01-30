@@ -730,10 +730,10 @@ public class SecurityWefluxConfig {
                      .securityContextRepository(securityContextRepository).addFilterBefore(new GatewayFilter(aesUtil, jwtUtils),SecurityWebFiltersOrder.CORS)
                      .authorizeExchange()
 
-                     .pathMatchers(" "/api/admin_spring_security_login","/api/open/account/get", "/security_superadmin/gen/barcode").permitAll()
+                     .pathMatchers(" "/api/admin_spring_security_login","/api/open/account/get", "/superadmin/gen/barcode").permitAll()
                      .pathMatchers("/adm/changepwd").hasAnyAuthority("MUCH_ADMIN","SUPER_ADMIN","ADMIN_EDIT","STAFF_EDIT")
                      .pathMatchers("/adm/superadmin/**").hasAnyAuthority("SUPER_ADMIN")
-                     .pathMatchers("/security_much/**").hasAnyAuthority("MUCH_ADMIN","SUPER_ADMIN")
+                     .pathMatchers("/much/**").hasAnyAuthority("MUCH_ADMIN","SUPER_ADMIN")
                      
                      .pathMatchers("/staff/**").hasAnyAuthority("STAFF_EDIT")
 
@@ -864,9 +864,9 @@ public class GatewayFilter implements WebFilter, Ordered {
 
             String path = request.getPath().toString();
             log.info("---->进入过滤器GatewayFilter path:{}, body {}", path, request.getBody());
-            String admintoken = exchange.getRequest().getHeaders().getFirst(TokenEnum.admintoken.name());
-            String h5token = exchange.getRequest().getHeaders().getFirst(TokenEnum.h5token.name());
-            String minitoken = exchange.getRequest().getHeaders().getFirst(TokenEnum.Authorization.name());
+            String admintoken = exchange.getRequest().getHeaders().getFirst(TokenEnum.Admin.name());
+            String h5token = exchange.getRequest().getHeaders().getFirst(TokenEnum.h5.name());
+            String minitoken = exchange.getRequest().getHeaders().getFirst(TokenEnum.mini.name());
             String awstoken = exchange.getRequest().getHeaders().getFirst(TokenEnum.authen.name()); // SQS Event
 
             log.info("--->admintoken {} , h5token {} , minitoken {}  ", admintoken, h5token, minitoken);
