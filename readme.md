@@ -1744,7 +1744,11 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-同时希望志同道合的朋友一起来共建事业。
+同时希望志同道合的朋友一起来共同完善，业余时间做一些产品研究。
+
+个人微信二维码：
+
+![](./assets/39.jpeg)
 
 
 
