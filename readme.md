@@ -1752,5 +1752,14 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
+# 相关资料
+
+## 谷歌浏览器（Mac）官方下载
+
+谷歌浏览器国内网站下载被墙，可以联系我私发官方安装文件
+
+
+wget https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg
+
 
 
