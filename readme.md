@@ -1734,6 +1734,26 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
+# 5 微信小程序模板消息推送设计
+
+在一些电商场景中或扫码点餐的场景中， 用户微信下单付款后，需要向微信用户推送消息，如：付款成功提醒或者取餐提醒等模板消息。
+
+由第三方平台向微信用户发送模板消息提醒需要干几件事。
+
+
+
+
+
+
+
+在微信小程序中，需要微信用户订阅消息模板。
+
+
+
+
+
+
+
 第三方平台小程序可以应用于有零售、电商 、扫码点餐需求的商家。而且是免费的。
 
 有兴趣了解可以加微信： comeon_betty  或关注公众号。
@@ -1741,6 +1761,12 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 ![](./assets/03.jpeg) 
+
+# 
+
+
+
+
 
 
 
@@ -1758,8 +1784,13 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 谷歌浏览器国内网站下载被墙，可以联系我私发官方安装文件
 
-
 wget https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg
+
+Raft : https://zinglix.xyz/2020/06/25/raft/
+
+https://raft.github.io/raft.pdf
+
+
 
 
 
