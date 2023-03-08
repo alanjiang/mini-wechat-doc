@@ -16,7 +16,7 @@
 
 架构设计由SLB、网关、注册/配置中心、微信、基础设施几部分组成。
 
-![./assets/01.png](./assets/01.png)
+![<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/01.png>](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/01.png>)
 
 
 
@@ -222,15 +222,15 @@ http {
 
 
 
-| 依赖                                      | 版本          | 说明 |
-| ----------------------------------------- | ------------- | ---- |
-| nacos                                     | 2.2.6.RELEASE |      |
-| nacos-client                              | 2.1.2         |      |
-| spring-boot                               | 2.3.2.RELEASE |      |
-| spring-cloud                              | Hoxton.SR9    |      |
-| spring-cloud-alibaba-dependencies         | 2.2.6.RELEASE |      |
+| 依赖                                       | 版本            | 说明   |
+| ---------------------------------------- | ------------- | ---- |
+| nacos                                    | 2.2.6.RELEASE |      |
+| nacos-client                             | 2.1.2         |      |
+| spring-boot                              | 2.3.2.RELEASE |      |
+| spring-cloud                             | Hoxton.SR9    |      |
+| spring-cloud-alibaba-dependencies        | 2.2.6.RELEASE |      |
 | spring-cloud-starter-alibaba-nacos-config | 2.2.6.RELEASE |      |
-| spring-cloud-starter-loadbalancer         | 2.2.6.RELEASE |      |
+| spring-cloud-starter-loadbalancer        | 2.2.6.RELEASE |      |
 
 以下是 pom.xml 
 
@@ -775,7 +775,7 @@ spring-security 仅一张表 admin_roles ( 后台帐号与角色关联表）实�
 
 
 
-![](./assets/02.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/02.png>)
 
 
 
@@ -1268,7 +1268,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 也可以通过公众号二维码扫码进入，二维码如下：
 
-![](./assets/03.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/03.jpeg)
 
 
 
@@ -1278,7 +1278,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/04.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/04.jpeg)
 
 
 
@@ -1290,7 +1290,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/05.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/05.jpeg)
 
 
 
@@ -1304,7 +1304,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/06.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/06.png)
 
 
 
@@ -1320,13 +1320,13 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/07.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/07.png)
 
 
 
 功能2:修改小程序的基本信息
 
-![](./assets/08.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/08.png)
 
 
 
@@ -1340,7 +1340,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/09.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/09.png)
 
 
 
@@ -1352,7 +1352,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/10.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/10.png)
 
 
 
@@ -1366,7 +1366,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/11.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/11.png)
 
 
 
@@ -1378,7 +1378,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 此功能调用了微信官方的接口，实现二级联动的效果。
 
-![](./assets/13.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/13.png)
 
 
 
@@ -1388,7 +1388,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/14.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/14.png)
 
 
 
@@ -1398,7 +1398,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/15.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/15.png)
 
 
 
@@ -1412,7 +1412,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/16.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/16.png)
 
 
 
@@ -1422,7 +1422,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 可以代商家小程序删除草稿或者添加到模板
 
-![](./assets/17.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/17.png)
 
 
 
@@ -1436,7 +1436,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/18.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/18.png)
 
 
 
@@ -1446,7 +1446,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/19.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/19.png)
 
 
 
@@ -1456,7 +1456,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/19B.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/19B.png)
 
 
 
@@ -1464,7 +1464,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/21.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/21.png)
 
 
 
@@ -1476,7 +1476,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/22.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/22.png)
 
 
 
@@ -1498,7 +1498,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 也可以查看订单的详情。
 
-![](./assets/24.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/24.png)
 
 
 
@@ -1516,7 +1516,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/25.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/25.jpeg)
 
 
 
@@ -1536,7 +1536,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/26.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/26.jpeg)
 
 
 
@@ -1548,7 +1548,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/27.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/27.jpeg)
 
 
 
@@ -1577,7 +1577,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/28.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/28.jpeg)
 
 
 
@@ -1589,7 +1589,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/29.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/29.jpeg)
 
 
 
@@ -1610,7 +1610,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/30.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/30.jpeg)
 
 
 
@@ -1626,7 +1626,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/31.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/31.jpeg)
 
 
 
@@ -1644,7 +1644,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/32.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/32.jpeg)
 
 
 
@@ -1664,7 +1664,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/33.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/33.jpeg)
 
 
 
@@ -1680,7 +1680,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/34.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/34.png)
 
 
 
@@ -1688,7 +1688,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 订单设计见以下时序图（简单画了下）。具体的实现是：用户提交订单至第三方小程序平台，平台保存订单后，延迟14分50秒发送异步订单删除消息给AWS，AWS lambda 函数触发后向平台方发送HTTP请求删除订单， 平台方判断订单有无支付，如果没有支付就直接删除。
 
-![](./assets/35B.png)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/35.png)
 
 
 
@@ -1710,7 +1710,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/36.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/36.jpeg)
 
 
 
@@ -1720,7 +1720,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/37.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/37.jpeg)
 
 
 
@@ -1728,7 +1728,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/38.jpeg)
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/38.jpeg)
 
 
 
@@ -1760,7 +1760,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 
 
-![](./assets/03.jpeg) 
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/03.jpeg) 
 
 # 
 
@@ -1774,21 +1774,7 @@ authorizer_access_token和 authorizer_refresh_token分别是票据信息和刷�
 
 个人微信二维码：
 
-![](./assets/39.jpeg)
-
-
-
-# 相关资料
-
-## 谷歌浏览器（Mac）官方下载
-
-谷歌浏览器国内网站下载被墙，可以联系我私发官方安装文件
-
-wget https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg
-
-Raft : https://zinglix.xyz/2020/06/25/raft/
-
-https://raft.github.io/raft.pdf
+![](<https://coding-2020.s3.cn-northwest-1.amazonaws.com.cn/assets/39.jpeg)
 
 
 
